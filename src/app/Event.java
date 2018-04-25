@@ -5,7 +5,6 @@ import java.util.List;
 import com.alibaba.fastjson.annotation.JSONField;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamImplicit;
-
 public class Event {
 	@XStreamAlias("DateTime")
 	private String DateTime;
